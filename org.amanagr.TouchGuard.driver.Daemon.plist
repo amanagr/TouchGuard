@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>org.rehabman.voodoo.driver.Daemon</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Program</key>
+	<string>/usr/bin/TouchGuard</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/TouchGuard</string>
+		<string>--startupDelay</string>
+		<string>1000000</string>
+		<string>--notificationDelay</string>
+		<string>20000</string>
+		<string>-time</string>
+		<string>1</string>
+	</array>
+	<key>StandardOutPath</key>
+	<string>/var/log/TouchGuard.log</string>
+	<key>StandardErrorPath</key>
+	<string>/var/log/TouchGuard.log</string>
+</dict>
+</plist>
