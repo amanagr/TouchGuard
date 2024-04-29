@@ -9,8 +9,8 @@
 cd Desktop
 sudo chmod +x TouchGuard
 ```
-4. Copy `TouchGuard` file (executable now) to `/usr/bin/` folder.
-5. Copy `org.amanagr.TouchGuard.driver.Daemon.plist` to `/Library/LaunchDaemons`.
+4. Copy `TouchGuard` file (executable now) to `/usr/local/bin/` folder (eg `sudo cp TouchGuard /usr/local/bin/`).
+5. Copy `org.amanagr.TouchGuard.driver.Daemon.plist` to `/Library/LaunchDaemons` (eg `sudo cp org.amanagr.TouchGuard.driver.Daemon.plist /Library/LaunchDaemons/`).
 6. Reboot.
 
 Based on [thesyntaxinator/TouchGuard](https://github.com/thesyntaxinator/TouchGuard)

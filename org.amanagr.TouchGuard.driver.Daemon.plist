@@ -9,10 +9,10 @@
 	<key>KeepAlive</key>
 	<true/>
 	<key>Program</key>
-	<string>/usr/bin/TouchGuard</string>
+	<string>/usr/local/bin/TouchGuard</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/usr/bin/TouchGuard</string>
+		<string>/usr/local/bin/TouchGuard</string>
 		<string>--startupDelay</string>
 		<string>1000000</string>
 		<string>--notificationDelay</string>
